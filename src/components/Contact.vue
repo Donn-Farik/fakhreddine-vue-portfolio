@@ -58,7 +58,7 @@
         ></path>
       </svg>
     </div>
-    <h4>Build & designed by Fakhreddine Farik 2022</h4>
+    <h3>Build & designed by Fakhreddine Farik Copyright &copy 2022</h3>
   </div>
 </template>
 
@@ -67,10 +67,8 @@
 <style scoped>
 .container {
   background-color: #212121;
-  padding: 20px;
+  padding: 20px 120px 20px;
   color: aliceblue;
-  display: flex;
-  flex-direction: column;
 }
 .form-section {
   padding-top: 40px;
@@ -92,7 +90,7 @@ h1 {
   justify-content: space-around;
   padding: 60px;
 }
-h4 {
+h3 {
   text-align: center;
 }
 
@@ -114,6 +112,7 @@ h4 {
   }
   .btn {
     color: #212121;
+    width: 30px;
   }
   .btn:hover {
     background-color: #ffe0b2;
@@ -123,7 +122,7 @@ h4 {
     justify-content: space-around;
     padding: 60px;
   }
-  h4 {
+  h3 {
     text-align: center;
   }
 }
