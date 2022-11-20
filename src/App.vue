@@ -91,13 +91,14 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #2b2b2b;
-  padding: 17px;
+  padding: 17px 60px;
 }
 .logo {
   font-family: "Pacifico", cursive;
   font-weight: 400;
   color: #ffe0b2;
   font-size: 2rem;
+  /* margin-left: 40px; */
 }
 img {
   display: none;
@@ -120,14 +121,6 @@ a:hover {
 .cards-container {
   display: flex;
 }
-.getColor {
-  background-color: #2b2b2b;
-}
-h1 {
-  text-align: center;
-  color: #ffe0b2;
-  padding: 50px;
-}
 @media screen and (max-width: 992px) {
   header {
     background-color: #2b2b2b;
@@ -144,7 +137,7 @@ h1 {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     color: #ffe0b2;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   img {
     display: block;
